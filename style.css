@@ -63,3 +63,17 @@ width: 310px;
 body{
     margin: 0px
 }
+.item:hover img{
+    opacity: 0.1;
+    }
+    .item:hover p{
+        opacity: 1;
+        font-family: sans-serif;
+    }        
+    .item p{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-140%);
+        opacity: 0;
+    }
